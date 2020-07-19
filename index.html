@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lift and Press</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(img/people-2604149_1920.jpg);
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        /* border: 2px solid red; */
+
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: -8px auto;
+        /* border: 2px solid blue; */
+    }
+
+    .right {
+        position: absolute;
+        right: 2px;
+        top: 16px;
+        display: inline-block;
+        /* border: 2px solid green; */
+    }
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 14px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    img {
+        width: 183px;
+    }
+
+    .btn {
+
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 28px 7px;
+        background-color: #f57a23;
+        color: black;
+        font-size: 15px;
+        padding: 7px 28px;
+        /* border: 2px solid grey; */
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+
+    .btn:hover {
+        background-color: rgb(41, 39, 39);
+    }
+
+    .container {
+        /* border: 4px solid grey; */
+        width: 42%;
+        padding: 3px 15px;
+        margin: 163px 15px;
+        border-radius: 25px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 5px 31px;
+        background-color: white;
+        color: black;
+        font-size: 15px;
+        padding: 4px 30px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+        width: 424px;
+    }
+
+    .container h1 {
+        text-align: center;
+        color: #f57a23;
+    }
+
+    .container button {
+
+        display: block;
+        margin: 23px 30px;
+        width: 487px;
+
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="img/lift.png" alt="">
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right for buttons -->
+        <div class="right">
+            <button class="btn">Contact Us</button><button class="btn">Call Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Yamunanagar</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your E-mail Id">
+            </div>
+
+            <button class="btn">Submit Now</button>
+    </div>
+</body>
+
+</html>
